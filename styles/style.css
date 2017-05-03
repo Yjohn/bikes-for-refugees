@@ -30,13 +30,37 @@ body {
 	color: #292b2c;
 	font-weight: 600;
 	text-transform: uppercase;
+	border: 1px solid transparent;
+}
+.nav-item{
+	border: 1px solid red;
+	padding: 0em,1em;
+	margin: 1px;
+}
+.nav-item:hover{
+	background-color: blue;
 }
 
 /* Buttons */
 .btn {
 	border-radius: 0.15em;
+	
 }
 
+.btn-primary{
+	background-color: #ce5f31;
+}
+.btn-secondary{
+	color:#ce5f31;
+}
+.btn-primary:hover,
+.btn-primary:focus{
+	background-color: grey;
+}
+.btn-secondary:hover,
+.btn-secondary:focus{
+	background-color: yellow;
+}
 /* Alert */
 .alert {
 	position: relative;
