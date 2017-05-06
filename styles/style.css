@@ -10,9 +10,9 @@ html,
 body {
 	font-family: "Source Sans Pro",-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
 }
-*{
+/**{
 	border: 1px solid black;
-}
+}*/
 .site-footer {
 	margin-top: 4em;
 }
@@ -149,6 +149,7 @@ font-weight: bold;
 	margin-bottom: 0.5em;
 	font-weight: 700;
 	flex:2;
+	padding-left: 10px;
 	
 }
 
