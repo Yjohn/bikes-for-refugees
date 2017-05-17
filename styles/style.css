@@ -186,6 +186,11 @@ font-weight: bold;
 	   max-height: 80px;
 	}
 }
+@media screen and (min-width: 480px){
+	.container22{
+		display: flex;
+		flex-direction: colomn;
+	}
 /*1. identify the css selector to target the jumbotron title
 2. set the font size to 3rem for the title
 3. use media query to change the font size to 4.5rem 
